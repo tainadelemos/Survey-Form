@@ -3,7 +3,7 @@ body{
 background-repeat:no-repeat;
     background-size: cover;
     background-image: linear-gradient(rgba(00, 70, 10, 0.5), green), url(https://files.cursoenemgratuito.com.br/uploads/2020/08/folhas-costela-de-adao-768x644.jpg); 
-    height: 400vh;
+    height: 100%;
     opacity: 0.9;
     padding: 0px;
     color: whitesmoke;
@@ -23,6 +23,7 @@ header{
     justify-content: center;
     margin: auto;
     padding: 30px 35px 30px 30px ;
+    margin-bottom: 5vh;
 
     /* padding: 30px 40px 30px 40px; */
 }
