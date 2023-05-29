@@ -1,0 +1,109 @@
+body{
+    margin: auto;
+background-repeat:no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(00, 70, 10, 0.5), green), url(https://files.cursoenemgratuito.com.br/uploads/2020/08/folhas-costela-de-adao-768x644.jpg); 
+    height: 400vh;
+    opacity: 0.9;
+    padding: 0px;
+    color: whitesmoke;
+    font-family: rockwell;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+}
+#container{
+    background-color: rgba(00, 70, 100,0.7);
+    /* margin: 0 200px; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 30px 35px 30px 30px ;
+
+    /* padding: 30px 40px 30px 40px; */
+}
+label {
+    display: block;
+    font-family: rockwell;
+}
+input[type="text"],input[type="email"],input[type="number"] {
+    height: 6vh;
+    padding: 2px 10px;
+    width: 60vw;
+    margin: auto;
+    border: whitesmoke solid 1px;
+    font-family: rockwell;
+    border-radius:5px;
+    margin-top: 3px;
+    margin-bottom: -10px;
+}
+button {
+    background-color: rgb(00, 197, 76) ;
+    height: 8vh;
+    padding: 10px 10px;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: auto;
+    border: rgb(49, 197, 76) solid 1px;
+    border-radius:100px;
+    color: white;
+    font-size: 1em;
+   
+}
+    select {
+    height: 6vh;
+    padding: 2px 10px;
+    width: 60vw;
+    margin: auto;
+    border: whitesmoke solid 1px;
+    border-radius:3px;
+}
+input[type="textarea"] {
+    display: block;
+    height: 20vh;
+    width: 60vw;
+    margin: auto;
+    padding: 10px 10px;
+    text-align: center;
+    
+}
+form {
+    max-width: 3000px;
+  min-width: 300px;
+ margin: auto;
+}
+
+button {
+color: black;
+}
+
+button:hover {
+color: whitesmoke;
+}
+
+button:active {
+color: #007010;
+}
+h1 {
+    font-size: 30;
+    margin-top: 30px;
+}
+#description {
+    font-size: 18;
+}
+label {
+    font-size: 18;
+}
+p {
+    font-size: 18;
+}
+textarea {
+    font-size: 17;
+    font-family: rockwell;
+}
